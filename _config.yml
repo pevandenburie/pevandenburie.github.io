@@ -1,0 +1,64 @@
+# Dependencies
+markdown: kramdown
+# Permalinks
+permalink: /blog/:title
+
+# Setup
+title:            C 4 P I B 4 R I B 3
+tagline:          'blog'
+description:      >
+                  I'm a software engineer. I've been traveling from the embedded world to the clouds since 10 years. Here are some of my best finds.
+url:              http://pevandenburie.github.io
+baseurl:          ''
+commentsystem:    google
+disqus:           example
+
+author:
+  name:           Paul-Emmanuel Vandenburie
+  url:            http://pevandenburie.github.io
+
+paginate:         5
+
+# Custom vars
+icon:             /assets/images/icon.png
+cover:            /assets/images/cover.jpg
+
+social:
+#  - icon:         twitter
+#    url:          https://twitter.com/iancamporez
+#    desc:         Follow me on twitter
+
+  - icon:         github
+    url:          https://github.com/pevandenburie
+    desc:         Fork me on github
+
+#  - icon:         googleplus-alt
+#    url:          https://google.com/+IanCamporezBrunelli
+#    desc:         Add me on google+
+
+#  - icon:         feed
+#    url:          http://camporez.github.io/atom.xml
+#    desc:         Subscribe to my feed
+
+menu:
+  - title:        Home
+    url:          /
+
+  - title:        About
+    url:          /about
+
+copyright:
+  author:         Camporez
+  url:            http://camporez.github.io
+  type_title:     Some rights reserved
+  type_url:       http://creativecommons.org/licenses/by-nc/2.5
+
+parallax:         false
+
+# Google Analytics (add the UA Code, e.g.: UA-xxxxxxxx-1)
+google_analytics:
+
+# Default Theme Color for Chrome on Android Lollipop (Use RGB ColorCode without `#`, e.g.: `db5945`)
+theme_color:       7E9576
+
+gems: [jekyll-paginate]
