@@ -4,7 +4,7 @@ markdown: kramdown
 permalink: /blog/:title
 
 # Setup
-title:            C 4 P I B 4 R I B 3
+title:            pevandenburie
 tagline:          'blog'
 description:      >
                   I'm a software engineer. I've been traveling from the embedded world to the clouds since 10 years. Here are some of my best finds.
